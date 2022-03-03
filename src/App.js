@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/UI/Header";
+import Footer from "./components/UI/Footer";
+import Hero from "./components/Hero/Hero";
+import './index.css';
+import SectionOne from "./components/SectionOne/SectionOne"; // fixme tailwind no autocomplete
+import SectionTwo from './components/SectionTwo/SectionTwo'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main className="relative overflow-hidden font-fraunces">
+			<Header/>
+			<Hero/>
+			<SectionOne />
+			<SectionTwo />
+			<Footer/>
+		</main>
+	);
 }
 
 export default App;
