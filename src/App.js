@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import './index.css';
 import SectionOne from "./components/SectionOne/SectionOne"; // fixme tailwind no autocomplete
 import SectionTwo from './components/SectionTwo/SectionTwo'
+import SectionThree from "./components/SectionThree/SectionThree";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<Hero/>
 			<SectionOne />
 			<SectionTwo />
+			<SectionThree />
 			<Footer/>
 		</main>
 	);
