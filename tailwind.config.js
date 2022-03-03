@@ -9,7 +9,7 @@ module.exports = {
 				yellow: "#fad400",
 				graphicDesignText:"#25564b",
 				photographyText:"#19536b",
-				footerGreen:"#458c7e",
+				footerGreen:"#90d4c5",
 				greyOne:"#a7abae",
 				greyTwo:"#a7abae",
 				greyThree:"#5a636c",

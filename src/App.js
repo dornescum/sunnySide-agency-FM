@@ -5,6 +5,8 @@ import './index.css';
 import SectionOne from "./components/SectionOne/SectionOne"; // fixme tailwind no autocomplete
 import SectionTwo from './components/SectionTwo/SectionTwo'
 import SectionThree from "./components/SectionThree/SectionThree";
+import Testimonials from "./components/Testimonials/Testimonials";
+import GridImages from "./components/GridImages/GridImages";
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
 			<SectionOne />
 			<SectionTwo />
 			<SectionThree />
+			<Testimonials />
+			<GridImages />
 			<Footer/>
 		</main>
 	);

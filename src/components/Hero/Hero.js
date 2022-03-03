@@ -9,7 +9,6 @@ const Hero = () => {
 					We are creatives
 				</h1>
 					<img src={arrow} alt="arrow" className="mt-20" />
-
 			</div>
 		</div>
 	);
